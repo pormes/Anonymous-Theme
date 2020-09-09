@@ -4,7 +4,6 @@ future>=0.18.2
 huepy>=1.2.1
 idna>=2.8
 pysocks>=1.7.1
-pytz>=2019.3
 requests>=2.22.0
 requests-toolbelt>=0.9.1
 responses>=0.10.9
