@@ -1,49 +1,50 @@
-certifi>=2019.11.28
-chardet>=3.0.4
-future>=0.18.2
-huepy>=1.2.1
-idna>=2.8
-pysocks>=1.7.1
-requests-toolbelt>=0.9.1
-responses>=0.10.9
-schedule>=0.6.0
-tqdm>=4.41.1
-urllib3>=1.25.7
-mock>=3.0.5
-moviepy>=1.0.1
-Pillow>=6.2.2
-rsa>=4.0
-pycryptodome>=3.9.7
-flake8>=3.3.0
-Sphinx>=1.5.1
-sphinx-rtd-theme>=0.1.9
-clarifai>=2.4.1
-configparser>=3.5.0
-EasyProcess>=0.2.3
-emoji>=0.5.1
-grpcio>=1.16.1
-plyer>=1.3.1
-PyVirtualDisplay>=0.2.1
-selenium>=3.141.0
-regex>=2018.11.22
-MeaningCloud-python>=1.1.1
-python-telegram-bot>=12.0.0
-bottle==0.12.7
-python-instagram==1.1.3
-redis==2.10.3
-beaker==1.6.4
-docopt==0.6.2
-tox==2.3.1
-cycler==0.10.0            
-kiwisolver==1.2.0        
-matplotlib==3.2.1
-numpy==1.18.5
-pandas==1.0.4         
-seaborn==0.10.1
-six==1.15.0
+certifi
+chardet
+future
+huepy
+idna
+pysocks
+requests-toolbelt
+responses
+schedule
+tqdm
+urllib3
+mock
+moviepy
+Pillow
+rsa
+pycryptodome
+flake8
+Sphinx
+sphinx-rtd-theme
+clarifai
+configparser
+EasyProcess
+emoji
+grpcio
+plyer
+PyVirtualDisplay
+selenium
+regex
+MeaningCloud-python
+python-telegram-bot
+bottle
+python-instagram
+redis
+beaker
+docopt
+tox
+instabot
+cycler            
+kiwisolver        
+matplotlib
+numpy
+pandas         
+seaborn
+six
 abclient
-alembic!=1.2.0
-amqp!=2.1.4
+alembic
+amqp
 ansible-runner
 anyjson
 appdirs
@@ -210,296 +211,293 @@ os-client-config
 os-collect-config
 os-net-config
 os-refresh-config
-os-resource-classes  # Apache-2.0
-os-service-types  # Apache-2.0
-os-testr  # Apache-2.0
-os-traits  # Apache-2.0
-os-ken  # Apache-2.0
-os-vif!=1.8.0,!=1.12.0  # Apache-2.0
-ovs  # Apache-2.0
-os-win  # Apache-2.0
-os-xenapi  # Apache-2.0
-paramiko  # LGPLv2.1+
-passlib  # BSD
-Paste  # MIT
-PasteDeploy  # MIT
-pbr!=2.1.0  # Apache-2.0
-pecan!=1.0.2,!=1.0.3,!=1.0.4,!=1.2,!=1.4.0  # BSD
-pexpect!=3.3  # ISC License
-pifpaf  # Apache-2.0
-pika  # BSD
-Pint  # BSD
-pip  # MIT
-prometheus-client  # Apache-2.0
+os-resource-classes
+os-service-types
+os-testr
+os-traits
+os-ken
+os-vif
+ovs
+os-win
+os-xenapi
+paramiko
+passlib
+Paste
+PasteDeploy
+pbr
+pecan
+pexpect
+InstagramGraphQL
+pifpaf
+pika
+Pint
+pipfile
+prometheus-client
 protobuf
-PrettyTable<0.8  # BSD
-psutil  # BSD
-pyasn1-modules  # BSD
-pycadf!=2.0.0  # Apache-2.0
-PyECLib  # BSD
-pyghmi!=1.4.0,!=1.5.11  # Apache-2.0
-pyinotify;sys_platform!='win32' and sys_platform!='darwin' and sys_platform!='sunos5'  # MIT
-PyJWT  # MIT
-pykmip  # Apache 2.0 License
-python-ldap  # PSF
-pylxd  # Apache-2.0
-pymemcache!=1.3.0  # Apache 2.0 License
-pymongo!=3.1  # Apache-2.0
-PyMySQL  # MIT License
-pytest  # MIT
-pytest-django  # BSD (3 clause)
-pytest-html  #MPL-2.0
-pytest-xdist  # MIT
-pywbem  # LGPLv2.1+
-pywinrm  # MIT
-salt!=2019.2.1,!=2019.2.2  # Apache-2.0
-storpool!=5.2.0,!=5.3.0  # Apache-2.0
-storpool.spopenstack  # Apache-2.0
-dfs-sdk  # Apache-2.0
-tap-as-a-service  # Apache-2.0
-etcd3  # Apache-2.0
-etcd3gw!=0.2.2,!=0.2.3,!=0.2.6  # Apache-2.0
-typing  # PSF
-voluptuous  # BSD License
-pydot  # MIT License
-pydotplus  # MIT License
-pyzabbix  # LGPL
-statsd  # MIT
-zVMCloudConnector;sys_platform!='win32'  # Apache 2.0 License
-jaeger-client  # Apache-2.0
-pyngus  # Apache-2.0
-pyOpenSSL  # Apache-2.0
-pyparsing  # MIT
-pyroute2!=0.5.4,!=0.5.5;sys_platform!='win32'  # Apache-2.0 (+ dual licensed GPL2)
-pysnmp  # BSD
-pystache  # MIT
-pysaml2!=4.0.3,!=4.0.4,!=4.0.5,!=4.0.5rc1,!=4.1.0,!=4.2.0,!=4.3.0,!=4.4.0,!=4.6.0  # Apache-2.0
-aodhclient  # Apache-2.0
-gnocchiclient!=7.0.7  # Apache-2.0
-python-barbicanclient  # Apache-2.0
-python-blazarclient  # Apache-2.0
-python-ceilometerclient  # Apache-2.0
-python-cinderclient!=4.0.0  # Apache-2.0
-python-cloudkittyclient  # Apache-2.0
-python-designateclient  # Apache-2.0
-python-freezerclient  # Apache-2.0
-python-heatclient  # Apache-2.0
-python-glanceclient  # Apache-2.0
-python-glareclient  # Apache-2.0
-python-ironic-inspector-client  # Apache-2.0
-python-ironicclient!=2.5.2,!=2.7.1,!=3.0.0  # Apache-2.0
-python-karborclient  # Apache-2.0
-python-keystoneclient!=2.1.0  # Apache-2.0
-python-magnumclient  # Apache-2.0
-python-masakariclient  # Apache-2.0
-python-manilaclient  # Apache-2.0
-python-mistralclient!=3.2.0  # Apache-2.0
-python-muranoclient  # Apache-2.0
-python-monascaclient  # Apache-2.0
-python-neutronclient  # Apache-2.0
-python-novaclient  # Apache-2.0
-python-octaviaclient  # Apache-2.0
-python-openstackclient  # Apache-2.0
-python-qinlingclient  # Apache-2.0
-python-rsdclient  # Apache-2.0
-python-saharaclient  # Apache-2.0
-python-searchlightclient  #Apache-2.0
-python-senlinclient  # Apache-2.0
-python-solumclient  # Apache-2.0
-python-swiftclient  # Apache-2.0
-python-tackerclient  # Apache-2.0
-python-troveclient  # Apache-2.0
-python-vitrageclient  # Apache-2.0
-python-watcherclient  # Apache-2.0
-python-zaqarclient  # Apache-2.0
-python-zunclient  # Apache-2.0
-python-memcached  # PSF
-python-dateutil  # BSD
-python-binary-memcached  # MIT
-uhashring  # BSD
-pytz  # MIT
-pyudev  # LGPLv2.1+
-PyYAML  # MIT
-rbd-iscsi-client  # Apache-2.0
-reno<3;python_version<'3.6'  # Apache-2.0
-reno;python_version>='3.6'  # Apache-2.0
-requests!=2.20.0,!=2.24.0  # Apache-2.0
-requests-aws  # BSD License (3 clause)
-requests-kerberos  # ISC
-requestsexceptions  # Apache-2.0
-rfc3986  # Apache-2.0
-rsd-lib  # Apache-2.0
-Routes  # MIT
-rtslib-fb  # Apache-2.0
-rst2txt  # BSD
-ryu  # Apache-2.0
-semantic-version  # BSD
-fasteners!=0.15  # Apache-2.0
-scrypt  # BSD
-simplejson  # MIT
-scipy  # BSD
-scikit-learn  # BSD
-setproctitle  # BSD
-SQLAlchemy!=1.1.5,!=1.1.6,!=1.1.7,!=1.1.8  # MIT
-SQLAlchemy-Utils  # BSD License
-sqlalchemy-migrate  # Apache-2.0
-sqlalchemy-filters  # Apache-2.0
-sqlparse  # BSD
-stevedore!=3.0.0  # Apache-2.0
-storops  # Apache-2.0
-systemd-python  # LGPLv2+
-sysv-ipc  # BSD License
-suds-jurko  # LGPLv3+
-sympy  # BSD
-taskflow  # Apache-2.0
-tempest  # Apache-2.0
-tooz  # Apache-2.0
-tosca-parser  # Apache-2.0
-tripleo-common!=11.3.0  # Apache-2.0
-validations-libs  # Apache-2.0
-urllib3  # MIT
-warlock<2  # Apache-2.0
-WebOb  # MIT
-websocket-client  # LGPLv2+
-websockify  # LGPLv3
-wheel  # MIT
-PyMI;sys_platform=='win32'  # Apache 2.0 License
-wmi;sys_platform=='win32'  # MIT
-WSME  # MIT
-xattr;sys_platform!='win32'  # MIT
-xstatic-angular-uuid  # MIT License
-xstatic-angular-vis  # MIT License
-xstatic-filesaver  # MIT License
-xstatic-js-yaml  # MIT License
-xstatic-json2yaml  # MIT License
-XenAPI  # LGPL
-XStatic  # MIT License
-XStatic-Angular  # MIT License
-XStatic-Angular-Bootstrap  # MIT License
-XStatic-Angular-Gettext  # MIT License
-XStatic-Angular-lrdragndrop  # MIT License
-XStatic-Angular-Schema-Form  # MIT
-XStatic-Bootstrap-Datepicker  # Apache 2.0 License
-XStatic-Bootstrap-SCSS  # Apache 2.0 License
-XStatic-bootswatch  # MIT License
-XStatic-D3  # BSD License (3 clause)
-XStatic-Dagre  # MIT License
-XStatic-Dagre-D3  # MIT License
-XStatic-Font-Awesome  # SIL OFL 1.1 License, MIT License
-XStatic-Graphlib  # MIT License
-XStatic-Hogan  # Apache 2.0 License
-XStatic-Jasmine  # MIT License
-XStatic-jQuery<2  # MIT License
-XStatic-JQuery-Migrate  # MIT License
-XStatic-JQuery.quicksearch  # MIT License
-XStatic-JQuery.TableSorter  # MIT License
-XStatic-jquery-ui  # MIT License
-XStatic-JSEncrypt  # MIT License
-XStatic-lodash  # MIT License
-XStatic-mdi  # SIL OPEN FONT LICENSE Version 1.1
-XStatic-moment  # MIT License
-XStatic-Moment-Timezone  # MIT License
-XStatic-objectpath  # MIT
-XStatic-Rickshaw  # BSD License (prior)
-XStatic-roboto-fontface  # Apache 2.0 License
-XStatic-smart-table  # MIT License
-XStatic-Spin  # MIT License
-XStatic-term.js  # MIT License
-XStatic-tv4  # MIT
-XStatic-Angular-FileUpload  # MIT License
-yaql  # Apache 2.0 License
-zeroconf  # LGPL
-zstd  # BSD License (2 clause)
-bashate  # Apache-2.0
-couchdb  # Apache-2.0
-coverage!=4.4  # Apache-2.0
-docker  # Apache-2.0
-django-nose  # BSD
-doc8  # Apache-2.0
-Pygments  # BSD license
-fixtures  # Apache-2.0/BSD
-freezegun  # Apache-2.0
-gabbi  # Apache-2.0
-kafka-python  # Apache-2.0
-keyring  # MIT/PSF
-ldappool  # MPL
-mock!=4.0.0,!=4.0.1  # BSD
-nodeenv  # BSD
-nose  # LGPL
-nose-exclude  # LGPL
-nosehtmloutput  # Apache-2.0
-nosexcover  # BSD
-openstack-doc-tools  # Apache-2.0
-openstack.nose-plugin  # Apache-2.0
-openstacksdk  # Apache-2.0
-os-api-ref  # Apache-2.0
-oslosphinx  # Apache-2.0
-oslotest<4;python_version<'3.6'  # Apache-2.0
-oslotest;python_version>='3.6'  # Apache-2.0
-ovsdbapp  # Apache-2.0
-proboscis  # Apache-2.0
-psycopg2  # LGPL/ZPL
-psycopg2-binary  # LGPL/ZPL
-purestorage  # BSD
-pysendfile;sys_platform!='win32'  # MIT
-python-3parclient  # Apache-2.0
-python-consul  # MIT License
-python-subunit  # Apache-2.0/BSD
-pyzmq  # LGPL+BSD
-redis  # MIT
-requests-mock  # Apache-2.0
-tenacity  # Apache-2.0
-retrying!=1.3.0  # Apache-2.0
-selenium  # Apache-2.0
-setuptools!=24.0.0,!=34.0.0,!=34.0.1,!=34.0.2,!=34.0.3,!=34.1.0,!=34.1.1,!=34.2.0,!=34.3.0,!=34.3.1,!=34.3.2,!=36.2.0,!=48.0.0,!=49.0.0  # PSF/ZPL
-sphinx!=1.6.6,!=1.6.7,!=2.1.0,!=3.0.0  # BSD
-sphinx-testing  # BSD License
-sphinxcontrib-actdiag  # BSD
-sphinxcontrib-apidoc  # BSD
-sphinxcontrib-blockdiag  # BSD
-sphinxcontrib-httpdomain  # BSD
-sphinxcontrib-nwdiag  # BSD
-sphinxcontrib-seqdiag  # BSD
-sphinxcontrib-pecanwsme  # Apache-2.0
-sphinx-feature-classification  # Apache-2.0
-sphinxcontrib.datatemplates  # BSD License
-sphinxcontrib-programoutput  # BSD license
-sphinxcontrib-svg2pdfconverter  # BSD License
-stestr!=2.3.0,!=3.0.0  # Apache-2.0
-sushy!=1.9.0  # Apache-2.0
-tabulate  # MIT
-testrepository  # Apache-2.0/BSD
-testresources  # Apache-2.0/BSD
-testscenarios  # Apache-2.0/BSD
-testtools  # MIT
-unittest2  # BSD
-virtualbmc  # Apache-2.0
-virtualenv!=16.3.0  # MIT
-wrapt  # BSD License
-WebTest  # MIT
-Werkzeug  # BSD License
-whereto  # Apache-2.0
-xmltodict  # MIT
-wsgi-intercept  # MIT License
-xvfbwrapper  #license: MIT
-zake  # Apache-2.0
-zuul-sphinx  # Apache-2.0
-sadisplay  # BSD
-ceilometer  # Apache-2.0
-grpcio!=1.16.0,!=1.16.1,!=1.17.0,!=1.17.1
-Yappi!=0.98,!=0.99  # MIT
-zipp<2;python_version<'3.6'  # MIT
-zipp;python_version>='3.6'  # MIT
-gitdb  # BSD
-gitdb2  # BSD
-toml!=0.10.1  # Apache-2.0
-pip==18.1
-bumpversion==0.5.3
-wheel==0.32.1
-watchdog==0.9.0
-flake8==3.5.0
-autoflake==1.3.1
-autopep8==1.4.4
-tox==3.5.2
-coverage==4.5.1
-twine==1.12.1
+PrettyTable
+psutil
+pyasn1-modules
+pycadf
+PyECLib
+pyghmi
+pyinotify
+PyJWT
+pykmip
+python-ldap
+pylxd
+pymemcache
+pymongo
+PyMySQL
+pytest
+pytest-django
+pytest-html
+pytest-xdist
+pywbem
+pywinrm
+salt
+storpool
+storpool.spopenstack
+dfs-sdk
+tap-as-a-service
+etcd3
+etcd3gw
+typing
+voluptuous
+pydot
+pydotplus
+pyzabbix
+statsd
+zVMCloudConnector
+jaeger-client
+pyngus
+pyOpenSSL
+pyparsing
+pyroute2
+pysnmp
+pystache
+pysaml2
+aodhclient
+gnocchiclient
+python-barbicanclient
+python-blazarclient
+python-ceilometerclient
+python-cinderclient
+python-cloudkittyclient
+python-designateclient
+python-freezerclient
+python-heatclient
+python-glanceclient
+python-glareclient
+python-ironic-inspector-client
+python-ironicclient
+python-karborclient
+python-keystoneclient
+python-magnumclient
+python-masakariclient
+python-manilaclient
+python-mistralclient
+python-muranoclient
+python-monascaclient
+python-neutronclient
+python-novaclient
+python-octaviaclient
+python-openstackclient
+python-qinlingclient
+python-rsdclient
+python-saharaclient
+python-searchlightclient
+python-senlinclient
+python-solumclient
+python-swiftclient
+python-tackerclient
+python-troveclient
+python-vitrageclient
+python-watcherclient
+python-zaqarclient
+python-zunclient
+python-memcached
+python-dateutil
+python-binary-memcached
+uhashring
+pytz
+pyudev
+PyYAML
+rbd-iscsi-client
+requests
+requests-aws
+requests-kerberos
+requestsexceptions
+rfc3986
+rsd-lib
+Routes
+rtslib-fb
+rst2txt
+ryu
+semantic-version
+fasteners
+scrypt
+simplejson
+scipy
+scikit-learn
+setproctitle
+SQLAlchemy
+SQLAlchemy-Utils
+sqlalchemy-migrate
+sqlalchemy-filters
+sqlparse
+stevedore
+storops
+systemd-python
+sysv-ipc
+suds-jurko
+sympy
+taskflow
+tempest
+tooz
+tosca-parser
+tripleo-common
+validations-libs
+urllib3
+warlock
+WebOb
+websocket-client
+websockify
+wheel
+PyMI
+wmi
+WSME
+xattr
+xstatic-angular-uuid
+xstatic-angular-vis
+xstatic-filesaver
+xstatic-js-yaml
+xstatic-json2yaml
+XenAPI
+XStatic
+XStatic-Angular
+XStatic-Angular-Bootstrap
+XStatic-Angular-Gettext
+XStatic-Angular-lrdragndrop
+XStatic-Angular-Schema-Form
+XStatic-Bootstrap-Datepicker
+XStatic-Bootstrap-SCSS
+XStatic-bootswatch
+XStatic-D3
+XStatic-Dagre
+XStatic-Dagre-D3
+XStatic-Font-Awesome
+XStatic-Graphlib
+XStatic-Hogan
+XStatic-Jasmine
+XStatic-jQuery
+XStatic-JQuery-Migrate
+XStatic-JQuery.quicksearch
+XStatic-JQuery.TableSorter
+XStatic-jquery-ui
+XStatic-JSEncrypt
+XStatic-lodash
+XStatic-mdi
+XStatic-moment
+XStatic-Moment-Timezone
+XStatic-objectpath
+XStatic-Rickshaw
+XStatic-roboto-fontface
+XStatic-smart-table
+XStatic-Spin
+XStatic-term.js
+XStatic-tv4
+XStatic-Angular-FileUpload
+yaql
+zeroconf
+zstd
+bashate
+couchdb
+coverage
+docker
+django-nose
+doc8
+Pygments
+fixtures
+freezegun
+gabbi
+kafka-python
+keyring
+ldappool
+mock
+nodeenv
+nose
+nose-exclude
+nosehtmloutput
+nosexcover
+openstack-doc-tools
+openstack.nose-plugin
+openstacksdk
+os-api-ref
+oslosphinx
+oslotest
+oslotest
+ovsdbapp
+proboscis
+psycopg2
+psycopg2-binary
+purestorage
+pysendfile
+python-3parclient
+python-consul
+python-subunit
+pyzmq
+redis
+requests-mock
+tenacity
+retrying
+selenium
+setuptools
+sphinx
+sphinx-testing
+sphinxcontrib-actdiag
+sphinxcontrib-apidoc
+sphinxcontrib-blockdiag
+sphinxcontrib-httpdomain
+sphinxcontrib-nwdiag
+sphinxcontrib-seqdiag
+sphinxcontrib-pecanwsme
+sphinx-feature-classification
+sphinxcontrib.datatemplates
+sphinxcontrib-programoutput
+sphinxcontrib-svg2pdfconverter
+stestr
+sushy
+tabulate
+testrepository
+testresources
+testscenarios
+testtools
+unittest2
+virtualbmc
+virtualenv
+wrapt
+WebTest
+Werkzeug
+whereto
+xmltodict
+wsgi-intercept
+xvfbwrapper
+zake
+zuul-sphinx
+sadisplay
+ceilometer
+grpcio
+Yappi
+zipp
+gitdb
+gitdb2
+toml
+bumpversion
+wheel
+watchdog
+autoflake
+autopep8
+nox
+coverage
+twine
+bar
