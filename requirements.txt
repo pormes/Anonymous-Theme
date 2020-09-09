@@ -24,7 +24,6 @@ configparser>=3.5.0
 EasyProcess>=0.2.3
 emoji>=0.5.1
 grpcio>=1.16.1
-jsonschema>=2.6.0,<3
 plyer>=1.3.1
 protobuf>=3.6.1
 PyVirtualDisplay>=0.2.1
@@ -238,7 +237,6 @@ pecan!=1.0.2,!=1.0.3,!=1.0.4,!=1.2,!=1.4.0  # BSD
 pexpect!=3.3  # ISC License
 pifpaf  # Apache-2.0
 pika  # BSD
-Pillow  # PIL License
 Pint  # BSD
 pip  # MIT
 prometheus-client  # Apache-2.0
@@ -514,5 +512,4 @@ autoflake==1.3.1
 autopep8==1.4.4
 tox==3.5.2
 coverage==4.5.1
-Sphinx==1.8.1
 twine==1.12.1
